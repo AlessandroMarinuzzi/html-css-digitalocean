@@ -244,6 +244,7 @@ button.form_items{
 /Site_Header 
 ________________________*/
 
+
 /* ______________________
 Main
 ________________________*/
@@ -282,8 +283,13 @@ img.brand.col-lg-2{
      .first_pannel.grey{
         padding-top: 20px;
         padding-bottom: 10px;
+     }
+}
+@media screen and (max-width:767px) {
+    img.brand.col-lg-2.col-md-2.col-xs-6{
+        height: 200px;
+        padding: 20px 50px;
+    }
 }
 
-
-    
 /* /First Grey Pannel MediaQuery */
