@@ -6,6 +6,13 @@ ________________________*/
     color: #006aff;
 }
 
+.grey{
+    background-color: #f3f5f9;
+}
+.grey_text{
+    color: #7b869f;
+}
+
 /* Nav Bar */
 #site_header .nav_bar{
     /* background-color: blueviolet; */
@@ -81,8 +88,8 @@ a.btn{
     padding-right: 125px;
 }
 .jumbotron h1.title{
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 60px;
+    line-height: 60px;
 }
 
 .jumbotron .col-lg-7 p{
@@ -153,7 +160,7 @@ button.form_items{
     font-size: 12px;
     margin-top: 10px;
 }
-/* Right Side */
+/* /Right Side */
 
 /* Header MediaQuery */
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -207,11 +214,15 @@ button.form_items{
 
     .jumbotron .row{
         padding-top: 40px;
+        padding-bottom: 80px;
     }
 
     .jumbotron h1.title{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .jumbotron .col-md-7.col-xs-12 p{
+        font-size: 20px;
     }
     .jumbotron .col-xs-12{
         padding-left: 15px;
@@ -233,7 +244,46 @@ button.form_items{
 /Site_Header 
 ________________________*/
 
+/* ______________________
+Main
+________________________*/
+
+/* First Grey Pannel */
+.first_pannel.grey{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+img.brand.col-lg-2{
+   height: 150px;   
+   padding: 10px; 
+}
+
+#site_main a{
+    text-decoration: none;
+}
+/* /First Grey Pannel */
+/* First Grey Pannel MediaQuery */
+@media screen and (min-width:768px) and (max-width:991px) {
+    img.brand.col-md-2{
+        height: 75px;   
+        padding: 5px; 
+     }
+
+     article.grey_text{
+         font-size: 15px;
+     }
+
+     a.blue_text.review{
+         font-size: 15px;
+     }
+
+     .first_pannel.grey{
+        padding-top: 20px;
+        padding-bottom: 10px;
+}
 
 
-
-
+    
+/* /First Grey Pannel MediaQuery */
