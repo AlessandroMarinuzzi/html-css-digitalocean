@@ -2,6 +2,10 @@
 Site_Header 
 ________________________*/
 
+.blue_text{
+    color: #006aff;
+}
+
 /* Nav Bar */
 #site_header .nav_bar{
     /* background-color: blueviolet; */
@@ -52,12 +56,96 @@ a.menu_items{
     vertical-align: middle;
     font-size: 13px;
 }
-.btn{
+a.btn{
     padding: 7px;
-    color: blue;
-    border: 1px solid blue;
+    color: #006aff;
+    border: 1px solid #006aff;
     border-radius: 3px;
 }
 /* /Nav Bar */
 
 /* Jumbotron */
+.jumbotron{
+    background-image: url("../img/bg-banner-home.jpg");
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+}
+
+/* Left Side */
+.jumbotron .col-lg-7{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 125px;
+}
+.jumbotron h1.title{
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.jumbotron .col-lg-7 p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+/* /Left Side */
+
+/* Right Side */
+.jumbotron .col-lg-5{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    
+}
+.card_form{
+    background-color: white;
+    /* height: 250px; */
+    /* width: 400px; */
+    border-radius: 5px;
+    text-align:center;
+    padding: 20px 30px;
+}
+/* .card_form form{
+    padding-right: 50px;
+    padding-left: 50px;
+} */
+
+.form_items{
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* Form Buttons */
+.btn_1{
+    background-color: #006aff;
+}
+.btn_1 a{
+    color: white;
+    text-decoration: none;
+}
+.btn_2{
+    background-color: white;
+    position: relative;
+}
+.btn_2 a{
+    color: #006aff;
+    text-decoration: none;
+    
+}
+
+.G_oogle{
+    height: 20px;
+    vertical-align: middle;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+/* /Form Buttons */
+.card_form p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
