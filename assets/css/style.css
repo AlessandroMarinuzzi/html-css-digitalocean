@@ -23,6 +23,12 @@ img.logo{
     height: 30px;
 }
 
+.fas.fa-bars{
+    font-size: 25px;
+    color: #006aff;
+    display: none;
+}
+
 div.menu ul, div.side_menu ul{
     display: flex;
     list-style: none;
@@ -111,7 +117,6 @@ a.btn{
     width: 100%;
     font-size: 16px;
     line-height: 40px;
-    vertical-align: middle;
     border-radius: 5px;
     margin-top: 12px;
 }
@@ -148,6 +153,87 @@ button.form_items{
     font-size: 12px;
     margin-top: 10px;
 }
+/* Right Side */
+
+/* Header MediaQuery */
+@media screen and (min-width:768px) and (max-width:991px) {
+    div.menu, div.side_menu{
+        display: none;
+    }
+
+    img.logo{
+        padding-left: 50px;
+    }
+    
+    .fas.fa-bars{
+        display: inline-block;
+        padding-right: 50px;
+    }
+
+    .jumbotron .row{
+        padding-top: 50px;
+    }
+
+    .jumbotron h1.title{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .jumbotron .col-md-7 p{
+        font-size: 20px;
+    }
+   
+    .jumbotron .col-md-7{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .jumbotron .col-md-5{
+        padding-right: 50px;  
+    }
+}
+
+@media screen and (max-width:767px) {
+    div.menu, div.side_menu{
+        display: none;
+    }
+
+    img.logo{
+        padding-left: 15px;
+    }
+    
+    .fas.fa-bars{
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    .jumbotron .row{
+        padding-top: 40px;
+    }
+
+    .jumbotron h1.title{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .jumbotron .col-xs-12{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0;
+    }
+
+    .jumbotron .col-lg-7.col-md-7.col-xs-12 p{
+        margin-top: 5px;
+    }
+
+    .jumbotron .col-lg-5.col-md-5.col-xs-12{
+        padding-top: 5px;
+    }
+}
+/* /Header MediaQuery */
+
+/* ______________________
+/Site_Header 
+________________________*/
+
+
 
 
 
