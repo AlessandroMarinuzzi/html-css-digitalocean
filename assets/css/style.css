@@ -1,0 +1,67 @@
+/* ______________________
+Site_Header 
+________________________*/
+
+/* Nav Bar */
+#site_header .nav_bar{
+    /* background-color: blueviolet; */
+    height: 50px;
+}
+#site_header .nav_bar .container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+img.logo{
+    height: 30px;
+}
+
+div.menu ul, div.side_menu ul{
+    display: flex;
+    list-style: none;
+}
+div.menu ul{
+    justify-content: center;
+}
+div.side_menu ul{
+    justify-content: flex-end;
+}
+div.menu{
+    flex-grow: 2;
+}
+div.side_menu{
+    flex-grow: 1;
+}
+
+div.menu li{
+    margin: auto 10px;
+}
+div.side_menu li{
+    margin-left: 20px;
+}
+
+a.menu_items{
+    text-decoration: none;
+    color: black;
+}
+.fa-chevron-down{
+    line-height: 100%;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.btn{
+    padding: 7px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+/* /Nav Bar */
+
+/* Jumbotron */
+.jumbotron{
+    height: 500px;
+    background-color: blue;
+}
