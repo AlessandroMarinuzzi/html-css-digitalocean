@@ -300,7 +300,9 @@ img.brand.col-lg-2{
 
 /* Second_Pannel White */
 .second_pannel.white{
-    padding-top:80px;  
+    padding-top: 80px; 
+    height: 700px;
+    /* padding-bottom: 80px;  */
 }
 .second_pannel.white .container:first-child{
     text-align: center;
@@ -380,4 +382,26 @@ img.brand.col-lg-2{
     }
 }
 /* /Second_Pannel White MediaQuery */
+
+/* Third_Pannel White */
+.third_pannel.grey{
+    padding-top: 50px;
+    text-align: center;
+} 
+
+img.hero_img{
+    transform: scale(60%);
+}
+
+.third_pannel.grey .container .slide_viewer.d_flex{
+    justify-content: center;
+    align-items: center;
+}
+
+.prev, .next{
+    font-size: 35px;
+}
+
+
+
 
