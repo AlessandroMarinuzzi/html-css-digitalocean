@@ -301,7 +301,7 @@ img.brand.col-lg-2{
 /* Second_Pannel White */
 .second_pannel.white{
     padding-top: 80px; 
-    height: 700px;
+    /* height: 700px; */
     /* padding-bottom: 80px;  */
 }
 .second_pannel.white .container:first-child{
@@ -383,14 +383,16 @@ img.brand.col-lg-2{
 }
 /* /Second_Pannel White MediaQuery */
 
-/* Third_Pannel White */
+/* Third_Pannel Grey */
 .third_pannel.grey{
     padding-top: 50px;
+    padding-bottom: 30px;
     text-align: center;
 } 
 
 img.hero_img{
-    transform: scale(60%);
+    width: 600px;
+    margin-bottom: 20px;
 }
 
 .third_pannel.grey .container .slide_viewer.d_flex{
@@ -401,7 +403,50 @@ img.hero_img{
 .prev, .next{
     font-size: 35px;
 }
+.prev{
+    margin-right: 30px;
+}
+.next{
+    margin-left: 30px;
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #006aff;
+    display: inline-block;
+}
+.full{
+    background-color: #006aff;
+    margin-top: 15px;
+}
+
+.viewer_text{
+    font-size: 20px;
+}
+/* /Third_Pannel Grey */
+
+/* Fourth_Pannel White */
+.fourth_pannel.white .container{
+    padding-top: 50px;
+    text-align: center;
+}
 
 
+.fourth_pannel.white .features{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 40px;
+}
 
+.card_title{
+    margin: 10px 0 10px 0;
+}
+
+.card_p{
+    margin-bottom: 10px;
+}
 

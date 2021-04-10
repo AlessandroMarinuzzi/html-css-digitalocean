@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .my-2{
     margin: 2rem 0;
 }
@@ -343,3 +349,9 @@
         margin-left: calc((100%/12) * 11);
     }
 }
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
