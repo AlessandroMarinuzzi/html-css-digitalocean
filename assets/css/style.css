@@ -449,4 +449,16 @@ img.hero_img{
 .card_p{
     margin-bottom: 10px;
 }
+/* /Fourth_Pannel White */
 
+/* Fifth_Pannel Tamarro */
+.fifth_pannel.tamarro{
+    background-image: linear-gradient(182deg, #0141BB, #002D9A);
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+
+.fifth_pannel.tamarro .col-lg-6{
+    flex-direction: column;
+}
