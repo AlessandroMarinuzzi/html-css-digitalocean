@@ -6,6 +6,10 @@ ________________________*/
     color: #006aff;
 }
 
+.white{
+    background-color: white;
+}
+
 .grey{
     background-color: #f3f5f9;
 }
@@ -390,9 +394,10 @@ img.brand.col-lg-2{
     text-align: center;
 } 
 
-img.hero_img{
+.slide_img{
     width: 600px;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .third_pannel.grey .container .slide_viewer.d_flex{
@@ -440,6 +445,7 @@ img.hero_img{
     align-items: flex-start;
     text-align: left;
     padding: 40px;
+    padding-left: 0;
 }
 
 .card_title{
@@ -456,9 +462,83 @@ img.hero_img{
     background-image: linear-gradient(182deg, #0141BB, #002D9A);
     padding: 50px 0;
     color: white;
+}
+.fifth_pannel.tamarro h2.section_title{
     text-align: center;
 }
 
-.fifth_pannel.tamarro .col-lg-6{
+.fifth_pannel.tamarro ul.col-lg-6{
     flex-direction: column;
+    list-style: none;
+    padding-top: 20px; 
 }
+.left_list{
+    padding-right: 20px;
+}
+.right_list{
+    padding-left: 20px;
+}
+
+
+li.city.row{
+    padding: 10px;
+}
+li.city.row:not(:last-child){
+    border-bottom: 1px solid white;
+}
+
+.test{
+    color: #00c0cd;
+}
+/* Fifth_Pannel Tamarro */
+
+/* Sixth_Pannel Grey */
+.sixth_pannel.grey{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+} 
+
+.sixth_pannel.grey .container .slide_viewer.d_flex{
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.sixth_pannel.grey .slide_img img{
+    transform: scale(60%);
+    padding-top: 50px;
+}
+.sixth_pannel.grey .slide_img p{
+    margin-top: 0;
+    margin-bottom: 10px;
+} 
+
+.quote{
+    font-size: 12px;
+}
+.quote_credits{
+    display: block;
+    font-size: 15px;
+}
+
+.slide_read{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* Sixth_Pannel Grey */
+
+/* Seventh_Pannel Tamarro */
+.seventh_pannel.tamarro{
+    background-image: linear-gradient(182deg, #0141BB, #002D9A);
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+
+.seventh_pannel a.btn.white{
+    display: inline-block;
+    margin-top: 15px;
+}
+
