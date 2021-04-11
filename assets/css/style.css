@@ -171,84 +171,6 @@ button.form_items{
 }
 /* /Right Side */
 
-/* Header MediaQuery */
-@media screen and (min-width:768px) and (max-width:991px) {
-    div.menu, div.side_menu{
-        display: none;
-    }
-
-    img.logo{
-        padding-left: 50px;
-    }
-    
-    .fas.fa-bars{
-        display: inline-block;
-        padding-right: 50px;
-    }
-
-    .jumbotron .row{
-        padding-top: 50px;
-    }
-
-    .jumbotron h1.title{
-        font-size: 40px;
-        line-height: 45px;
-    }
-    .jumbotron .col-md-7 p{
-        font-size: 20px;
-    }
-   
-    .jumbotron .col-md-7{
-        padding-left: 50px;
-        padding-right: 20px;
-    }
-    .jumbotron .col-md-5{
-        padding-right: 50px;  
-    }
-}
-
-@media screen and (max-width:767px) {
-    div.menu, div.side_menu{
-        display: none;
-    }
-
-    img.logo{
-        padding-left: 15px;
-    }
-    
-    .fas.fa-bars{
-        display: inline-block;
-        padding-right: 15px;
-    }
-
-    .jumbotron .row{
-        padding-top: 40px;
-        padding-bottom: 80px;
-    }
-
-    .jumbotron h1.title{
-        font-size: 60px;
-        line-height: 60px;
-    }
-    .jumbotron .col-md-7.col-xs-12 p{
-        font-size: 20px;
-    }
-    .jumbotron .col-xs-12{
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 0;
-    }
-
-    .jumbotron .col-lg-7.col-md-7.col-xs-12 p{
-        margin-top: 5px;
-    }
-
-    .jumbotron .col-lg-5.col-md-5.col-xs-12{
-        padding-top: 5px;
-    }
-}
-/* /Header MediaQuery */
-
 /* ______________________
 /Site_Header 
 ________________________*/
@@ -274,33 +196,6 @@ img.brand.col-lg-2{
     text-decoration: none;
 }
 /* /First Grey Pannel */
-/* First Grey Pannel MediaQuery */
-@media screen and (min-width:768px) and (max-width:991px) {
-    img.brand.col-md-2{
-        height: 75px;   
-        padding: 5px; 
-     }
-
-     article.grey_text{
-         font-size: 15px;
-     }
-
-     a.blue_text.review{
-         font-size: 15px;
-     }
-
-     .first_pannel.grey{
-        padding-top: 20px;
-        padding-bottom: 10px;
-     }
-}
-@media screen and (max-width:767px) {
-    img.brand.col-xs-6{
-        height: 200px;
-        padding: 20px 20px;
-    }
-}
-/* /First Grey Pannel MediaQuery */
 
 /* Second_Pannel White */
 .second_pannel.white{
@@ -352,40 +247,6 @@ img.brand.col-lg-2{
     padding-bottom: 20px;
 }
 /* /Second_Pannel White */
-/* Second_Pannel White MediaQuery */
-
-@media screen and (min-width:768px) and (max-width:991px){
-    .actions.d_flex.col-md-6{
-        margin-bottom: 50px;
-    }
-
-    .second_pannel.white{
-        padding: 15px;
-    }
-}
-@media screen and (max-width:767px){
-    .row.d_flex{
-        display: table;
-    }
-    .actions.d_flex.col-xs-12{
-        justify-content: space-evenly;
-        padding: 0;
-        font-size: 20px;
-    }   
-
-    .actions.d_flex.col-xs-12 h3{
-        font-size: 25px;
-    }
-    
-    .second_pannel.white .container.clearfix{
-        padding: 0 0 0 10px;
-    }
-
-    .options_left{
-        font-size: 25px;
-    }
-}
-/* /Second_Pannel White MediaQuery */
 
 /* Third_Pannel Grey */
 .third_pannel.grey{
@@ -539,6 +400,151 @@ li.city.row:not(:last-child){
 
 .seventh_pannel a.btn.white{
     display: inline-block;
+    border: white;
     margin-top: 15px;
 }
+/* Seventh_Pannel Tamarro */
 
+
+
+
+
+/* Header MediaQuery */
+@media screen and (min-width:768px) and (max-width:991px) {
+    div.menu, div.side_menu{
+        display: none;
+    }
+
+    img.logo{
+        padding-left: 50px;
+    }
+    
+    .fas.fa-bars{
+        display: inline-block;
+        padding-right: 50px;
+    }
+
+    .jumbotron .row{
+        padding-top: 50px;
+    }
+
+    .jumbotron h1.title{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .jumbotron .col-md-7 p{
+        font-size: 20px;
+    }
+   
+    .jumbotron .col-md-7{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .jumbotron .col-md-5{
+        padding-right: 50px;  
+    }
+}
+
+@media screen and (max-width:767px) {
+    div.menu, div.side_menu{
+        display: none;
+    }
+
+    img.logo{
+        padding-left: 15px;
+    }
+    
+    .fas.fa-bars{
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    .jumbotron .row{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .jumbotron h1.title{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .jumbotron .col-md-7.col-xs-12 p{
+        font-size: 20px;
+    }
+    .jumbotron .col-xs-12{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0;
+    }
+
+    .jumbotron .col-lg-7.col-md-7.col-xs-12 p{
+        margin-top: 5px;
+    }
+
+    .jumbotron .col-lg-5.col-md-5.col-xs-12{
+        padding-top: 5px;
+    }
+}
+/* /Header MediaQuery */
+
+/* First Grey Pannel MediaQuery */
+@media screen and (min-width:768px) and (max-width:991px) {
+    img.brand.col-md-2{
+        height: 75px;   
+        padding: 5px; 
+     }
+
+     article.grey_text{
+         font-size: 15px;
+     }
+
+     a.blue_text.review{
+         font-size: 15px;
+     }
+
+     .first_pannel.grey{
+        padding-top: 20px;
+        padding-bottom: 10px;
+     }
+}
+@media screen and (max-width:767px) {
+    img.brand.col-xs-6{
+        height: 200px;
+        padding: 20px 20px;
+    }
+}
+/* /First Grey Pannel MediaQuery */
+/* Second_Pannel White MediaQuery */
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .actions.d_flex.col-md-6{
+        margin-bottom: 50px;
+    }
+
+    .second_pannel.white{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:767px){
+    .row.d_flex{
+        display: table;
+    }
+    .actions.d_flex.col-xs-12{
+        justify-content: space-evenly;
+        padding: 0;
+        font-size: 20px;
+    }   
+
+    .actions.d_flex.col-xs-12 h3{
+        font-size: 25px;
+    }
+    
+    .second_pannel.white .container.clearfix{
+        padding: 0 0 0 10px;
+    }
+
+    .options_left{
+        font-size: 25px;
+    }
+}
+/* /Second_Pannel White MediaQuery */
