@@ -509,7 +509,13 @@ li.city.row:not(:last-child){
     width: 300px;
     height: auto;
     position: relative;
+    display: none;
 }
+
+.shark_chat:hover .chat_msg{
+    display: block;
+}
+
 
 .chat_text{
     display: inline-block;
@@ -859,3 +865,4 @@ li.city.row:not(:last-child){
         padding-left: 20px;
     }
 }
+/* /Footer MediaQuery */
