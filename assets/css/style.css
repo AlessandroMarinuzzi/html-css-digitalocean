@@ -47,6 +47,7 @@ img.logo{
     display: none;
 }
 
+
 div.menu ul, div.side_menu ul{
     display: flex;
     list-style: none;
@@ -557,7 +558,25 @@ li.city.row:not(:last-child){
         display: inline-block;
         padding-right: 50px;
     }
-
+    /* .burger_list{
+        width: 100px;
+        background-color: white;
+        position: relative;
+        right: 50px;
+        top: 50px;
+        display: none;
+    }
+    .burger_menu:hover .burger_list{
+        display: block;
+    }
+    .burger li{
+        list-style: none;
+        padding: 5 px;
+    }
+    .burger_items{
+        text-decoration: none;
+        padding:10px;
+    } */
     .jumbotron .row{
         padding-top: 50px;
     }
@@ -693,7 +712,7 @@ li.city.row:not(:last-child){
     }
     
     .second_pannel.white .container.clearfix{
-        padding: 0 0 30px 10px;
+        padding: 0 0 30px 20px;
     }
 
     .options_left{
